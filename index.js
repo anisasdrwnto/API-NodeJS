@@ -28,9 +28,8 @@ app.get('/products', (req, res) => {
 
 app.get('/products/:id', (req, res) => {
   const id = req.params.id; 
-  const sqlQuery = 'select * from products where id  = ${id}'; 
-  db.query(sqlQuery, (err, result)=> { 
-    // console.log("result => ", result);
+  const sqlQuery = `SELECT * FROM products WHERE id = '${id}'`; 
+  db.query(sqlQuery, (err, result)=> {
     if(result.length > 0){    
       res.json({
         status: 200,
