@@ -28,6 +28,6 @@ PATCH: Edit
 DELETE: delete
 
 Apa bedanya PUT dan PATCH?
-Jawab: PUT biasanya digunakan untuk mengubah semua isi field dari suatu tabel. Sedangkan PATCH digunakan untuk mengubah beberapa isi field tertentu di suatu tabel. 
+==> PUT biasanya digunakan untuk mengubah semua isi field dari suatu tabel. Sedangkan PATCH digunakan untuk mengubah beberapa isi field tertentu di suatu tabel. 
 Apakah PUT dan PATCH dapat digunakan berbarengan?
-Jawab: Bisa saja, tetapi tinggal dibedakan dengan cara membuat 2 method. Walaupun URL sama, gapapa. Yang terpenting adalah beda method.
+==> Bisa saja, tetapi tinggal dibedakan dengan cara membuat 2 method. Walaupun URL sama, gapapa. Yang terpenting adalah beda method.
